@@ -38,26 +38,28 @@ Para garantir uma aplicação robusta com nível de produção, o projeto foi es
 ### Pré-requisitos
 Antes de começar, você precisará ter o Python instalado em sua máquina.
 
-### 1. Clonar o Repositório
-```bash
-git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
-cd nome-do-repositorio
+##PASSO A PASSO##
+
+1. Clonar o Repositório
 
 2. Instalar as Dependências
 Instale os pacotes necessários utilizando o gerenciador de pacotes do Python:
 
-Bash
-pip install playwright customtkinter pandas
+No CMD:
+pip install playwright customtkinter pandas 
+
 3. Instalar os Motores do Navegador
 Inicialize os binários do Chromium necessários para o Playwright:
 
-Bash
+No CMD:
 playwright install chromium
+
 4. Rodar a Aplicação
 Execute o arquivo principal da interface gráfica:
-
-Bash
 python interface.py
+
+-----------------------------------
+
 📈 Próximos Passos (Roadmap de Evolução)
 [ ] Implementar exportação automática dos resultados para planilhas Excel (.xlsx) ou arquivos .csv utilizando a biblioteca Pandas.
 
@@ -65,10 +67,4 @@ python interface.py
 
 [ ] Migrar a interface para a web utilizando Streamlit para permitir deploy em nuvem pública.
 
-Desenvolvido por [Seu Nome] - Sinta-se à vontade para se conectar ou dar uma ⭐️ no projeto!
-
-
----
-
-### 💡 Dicas de Liderança e Engenharia para o Portfólio:
-* **Não pule a seção do GIF:** Recrutadores de tecnologia revisam dezenas de portfól
+Desenvolvido por Lucila de Souza Monteiro do Nascimento - Sinta-se à vontade para se conectar ou dar uma ⭐️ no projeto!
